@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: yarn build
         
-      - uses: GoogleCloudPlataforma/github-actions/setup-gcloud@master
+      - uses: GoogleCloudPlataform/github-actions/setup-gcloud@master
         with:
           version: '290.0.1'
           project_id: ${{ secrets.PROJECT }}
